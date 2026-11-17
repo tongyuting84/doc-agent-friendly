@@ -8,12 +8,11 @@ status: draft
 source_url: <official-url>
 agent_rules:
   - shared/rules/global-agent-execution.md
-  - shared/rules/api-agent-invocation.md
 ---
 
 # <接口标题>
 
-> Agent 执行本接口前，应读取上方 `agent_rules` 指定的通用规则。
+> Agent 执行本接口前，应读取上方全局规范；全局规范会自动加载 API 规范和 API 凭证配置指南。
 
 ## 接口说明
 

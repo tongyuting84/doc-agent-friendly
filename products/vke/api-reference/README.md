@@ -16,4 +16,4 @@ VKE OpenAPI 原子接口文档。
 - [Addons](addons/)
 - [Images](images/)
 
-调用任何接口前，Agent 应读取 [通用 API Agent 调用规范](../../../shared/rules/api-agent-invocation.md)。
+调用任何接口前，Agent 应读取[全局 Agent 执行规范](../../../shared/rules/global-agent-execution.md)。全局规范会自动加载 API 规范和 API 凭证配置指南。

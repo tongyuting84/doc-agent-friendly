@@ -16,7 +16,7 @@
 
 1. 通用规则定义“如何安全执行”。
 2. 产品文档定义“执行什么”和产品事实。
-3. API 文档保持原子化，不重复凭证、安全、重试和清理规则。
+3. 业务文档保持原子化，原则上只引用全局规范；全局规范自动路由 API、控制台和 Kubernetes YAML 子规范。
 4. 审核报告与产品文档分离。
 5. `main` 分支作为本仓库的唯一事实来源；原 Codebase 仓库保留迁移历史。
 
@@ -26,4 +26,4 @@
 
 ## Agent 入口
 
-开始产品任务前，先阅读 [全局 Agent 执行规范](shared/rules/global-agent-execution.md)，再根据任务类型读取 API、控制台或凭证规则。
+开始产品任务前先阅读[全局 Agent 执行规范](shared/rules/global-agent-execution.md)。Agent 必须按其中的路由表自动读取 API、凭证、控制台或 Kubernetes YAML 子规范。

@@ -17,11 +17,8 @@
 - [Development guide](development-guide/)
 - [FAQs](faqs/)
 
-## Agent 执行规则
+## Agent 执行入口
 
-- 所有任务：[全局 Agent 执行规范](../../shared/rules/global-agent-execution.md)
-- 单个 API：[通用 API Agent 调用规范](../../shared/rules/api-agent-invocation.md)
-- SDK/CLI/签名调用：[Agent API 凭证配置指南](../../shared/rules/api-credential-configuration.md)
-- 控制台操作：[控制台任务 Agent 调用规范](../../shared/rules/console-task-agent-invocation.md)
+所有任务统一引用[全局 Agent 执行规范](../../shared/rules/global-agent-execution.md)。该规范会根据实际内容自动加载 API、凭证、控制台或 Kubernetes YAML 子规范。
 
 产品文档负责 VKE 特有事实；通用执行、安全、凭证和验证规则不得复制到每篇文档中。

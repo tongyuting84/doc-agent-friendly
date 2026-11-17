@@ -8,10 +8,11 @@ status: draft
 source_url: <official-url>
 agent_rules:
   - shared/rules/global-agent-execution.md
-  - shared/rules/console-task-agent-invocation.md
 ---
 
 # <控制台任务标题>
+
+> Agent 执行本文前，应读取上方全局规范；全局规范会自动加载控制台操作规范。
 
 ## 任务结果
 
