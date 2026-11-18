@@ -7,7 +7,7 @@ requires: [global-agent-execution]
 
 # Kubernetes YAML Agent 执行规范
 
-> 适用于 Agent 识别文档中的 Kubernetes YAML，检查本地与集群环境，使用 `kubectl` 校验、执行并验收资源。通用输入、风险、确认和证据规则由[全局 Agent 执行规范](global-agent-execution.md)定义。
+> 适用于 Agent 识别文档中的 Kubernetes YAML，检查本地与集群环境，使用 `kubectl` 校验、执行并验收资源。通用输入、风险、确认和证据规则由[全局 Agent 执行规范](01-global-agent-execution.md)定义。
 
 ## 1. 触发条件与边界
 

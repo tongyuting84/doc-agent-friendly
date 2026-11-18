@@ -19,6 +19,6 @@
 
 ## Agent 执行入口
 
-所有任务统一引用[全局 Agent 执行规范](../../shared/rules/global-agent-execution.md)。该规范会根据实际内容自动加载 API、凭证、控制台或 Kubernetes YAML 子规范。
+所有任务统一引用[全局 Agent 执行规范](../../shared/rules/01-global-agent-execution.md)。该规范会根据实际内容自动加载 API、凭证、控制台或 Kubernetes YAML 子规范。
 
 产品文档负责 VKE 特有事实；通用执行、安全、凭证和验证规则不得复制到每篇文档中。

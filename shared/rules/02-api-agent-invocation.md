@@ -7,7 +7,7 @@ requires: [global-agent-execution, api-credential-configuration]
 
 # API Agent 调用规范
 
-> 适用于 Agent 根据公开 API 文档，使用 API Explorer、官方 SDK 或签名 HTTP 调用单个 OpenAPI。通用安全、批准和验收规则由[全局 Agent 执行规范](global-agent-execution.md)定义；认证准备由[Agent API 凭证配置指南](api-credential-configuration.md)定义。
+> 适用于 Agent 根据公开 API 文档，使用 API Explorer、官方 SDK 或签名 HTTP 调用单个 OpenAPI。通用安全、批准和验收规则由[全局 Agent 执行规范](01-global-agent-execution.md)定义；认证准备由[Agent API 凭证配置指南](03-api-credential-configuration.md)定义。
 
 ## 1. 规范边界
 

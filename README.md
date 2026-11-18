@@ -25,4 +25,4 @@
 
 ## Agent 入口
 
-开始产品任务前先阅读[全局 Agent 执行规范](shared/rules/global-agent-execution.md)。Agent 必须按其中的路由表自动读取 API、凭证、控制台或 Kubernetes YAML 子规范。
+开始产品任务前先阅读[全局 Agent 执行规范](shared/rules/01-global-agent-execution.md)。Agent 必须按其中的路由表自动读取 API、凭证、控制台或 Kubernetes YAML 子规范。

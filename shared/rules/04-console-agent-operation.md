@@ -7,7 +7,7 @@ requires: [global-agent-execution]
 
 # 控制台 Agent 操作规范
 
-> 适用于 Agent 根据云控制台操作文档完成资源查询、创建、配置、更新、验证和清理。通用安全、批准和结果规则由[全局 Agent 执行规范](global-agent-execution.md)定义。
+> 适用于 Agent 根据云控制台操作文档完成资源查询、创建、配置、更新、验证和清理。通用安全、批准和结果规则由[全局 Agent 执行规范](01-global-agent-execution.md)定义。
 
 ## 1. 规范边界
 

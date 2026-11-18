@@ -7,7 +7,7 @@ requires: [global-agent-execution]
 
 # Agent API 凭证配置指南
 
-> 适用范围：为 API Explorer、官方 SDK 和签名 HTTP 客户端准备火山引擎 API 身份凭证。API 操作必须同时遵守[全局 Agent 执行规范](global-agent-execution.md)和[API Agent 调用规范](api-agent-invocation.md)。
+> 适用范围：为 API Explorer、官方 SDK 和签名 HTTP 客户端准备火山引擎 API 身份凭证。API 操作必须同时遵守[全局 Agent 执行规范](01-global-agent-execution.md)和[API Agent 调用规范](02-api-agent-invocation.md)。
 
 > 安全目标：让 Agent 能够调用 API，同时避免 AK、SK、令牌、Cookie 和签名进入聊天、代码、日志、截图或 Git 仓库。
 

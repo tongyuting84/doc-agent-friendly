@@ -7,7 +7,7 @@ language: zh-CN
 status: draft
 source_url: <official-url>
 agent_rules:
-  - shared/rules/global-agent-execution.md
+  - shared/rules/01-global-agent-execution.md
 ---
 
 # <接口标题>

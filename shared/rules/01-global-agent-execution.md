@@ -21,9 +21,9 @@ Agent 在修改外部环境前，必须完整读取当前业务文档，识别�
 
 | 识别信号 | 操作类型 | 必须继续读取 |
 | --- | --- | --- |
-| API Action、Version、Endpoint、请求参数、SDK 示例、API Explorer、签名 HTTP | API | [API Agent 调用规范](api-agent-invocation.md)和[Agent API 凭证配置指南](api-credential-configuration.md) |
-| 控制台页面、按钮、表单、向导、浏览器登录态 | 控制台 | [控制台 Agent 操作规范](console-agent-operation.md) |
-| Kubernetes YAML、`apiVersion`、`kind`、`kubectl` | Kubernetes YAML | [Kubernetes YAML Agent 执行规范](kubernetes-yaml-agent-execution.md) |
+| API Action、Version、Endpoint、请求参数、SDK 示例、API Explorer、签名 HTTP | API | [API Agent 调用规范](02-api-agent-invocation.md)和[Agent API 凭证配置指南](03-api-credential-configuration.md) |
+| 控制台页面、按钮、表单、向导、浏览器登录态 | 控制台 | [控制台 Agent 操作规范](04-console-agent-operation.md) |
+| Kubernetes YAML、`apiVersion`、`kind`、`kubectl` | Kubernetes YAML | [Kubernetes YAML Agent 执行规范](05-kubernetes-yaml-agent-execution.md) |
 
 路由要求：
 
@@ -147,8 +147,8 @@ Agent 必须识别文档中的可选配置和条件分支，但不得因为文�
 - 不得把秘密写入源码、Markdown、命令参数、日志、截图、Git 仓库或最终回复。
 - 只能检查敏感输入是否已配置，不得回显其值。
 - 不得导出浏览器 Cookie 或令牌供 SDK、命令行或其他客户端使用。
-- API 认证的详细处理遵守[Agent API 凭证配置指南](api-credential-configuration.md)。
-- 控制台密码生成与交付遵守[控制台 Agent 操作规范](console-agent-operation.md)。
+- API 认证的详细处理遵守[Agent API 凭证配置指南](03-api-credential-configuration.md)。
+- 控制台密码生成与交付遵守[控制台 Agent 操作规范](04-console-agent-operation.md)。
 
 ## 7. 风险、预检查与批准
 
