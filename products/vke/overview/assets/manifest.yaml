@@ -53,3 +53,8 @@ assets:
     source_url: https://portal.volccdn.com/obj/volcfe/cloud-universal-doc/upload_b7d7ac996a86d9a250d3187850ad0023.png
     alt: 标准节点与弹性容器共同应对业务峰谷
     transformation: 原图保存
+  - file: regions-and-availability-zones/region-availability-zone-relationship.png
+    source_page: https://docs.volcengine.com/docs/vke/regions-and-availability-zones?lang=zh
+    source_url: https://lf6-volc-editor.volccdn.com/obj/volcfe/sop-public/upload_254b879e587a2b1a7d8d92c64e58e5ad.png
+    alt: 地域和可用区之间的关系
+    transformation: 原图保存
