@@ -5,7 +5,7 @@
 ## 文档导航
 
 - [What's New](whats-new/)
-- [Overview](overview/)
+- [产品简介](overview/)
 - [Billing](billing/)
 - [Getting started](getting-started/)
 - [User guide](user-guide/)
