@@ -38,6 +38,10 @@ VKE 扩展 Kubernetes 原生调度能力，支持 Binpack、Spread、Gang、Capa
 
 VKE 兼容 Kubernetes API 和 `kubectl`，并可与持续交付、镜像仓库、日志服务、托管 Prometheus 和云监控等火山引擎产品协同使用。
 
+![VKE 与火山引擎云产品的集成关系](assets/benefits/product-integration.png)
+
+图示要点：VKE 作为容器编排基础设施，与计算、网络、存储、镜像、交付、监控和日志等云产品协同。使用某项集成能力前，应核对其地域支持、权限和前置资源要求。
+
 ## 与自建 Kubernetes 的主要差异
 
 | 维度 | VKE | 自建 Kubernetes |
@@ -48,4 +52,8 @@ VKE 兼容 Kubernetes API 和 `kubectl`，并可与持续交付、镜像仓库�
 | 运维 | 提供升级、监控、日志、诊断和安全能力 | 用户自行建设运维平台 |
 | 成本结构 | 减少控制面和平台研发运维投入 | 需要承担集群平台研发与运维成本 |
 
-详细对比和架构图请参见[官网原文](https://docs.volcengine.com/docs/vke/benefits?lang=zh)。
+![VKE 与自建 Kubernetes 的责任和能力对比](assets/benefits/vke-vs-self-managed-kubernetes.png)
+
+图示要点：VKE 由云平台提供集群控制面和配套云原生能力，用户主要管理业务工作负载；自建 Kubernetes 则需要用户承担更多集群部署、集成、升级和运维工作。
+
+详细能力和对比口径请以[官网原文](https://docs.volcengine.com/docs/vke/benefits?lang=zh)为准。

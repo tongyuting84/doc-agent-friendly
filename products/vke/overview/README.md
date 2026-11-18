@@ -28,4 +28,5 @@ synced_at: 2026-11-18
 - 官网栏目：VKE 介绍
 - 官网入口：[容器服务文档](https://docs.volcengine.com/docs/vke?lang=zh)
 - 本次同步日期：2026-11-18
-- 内容形式：对官网正文进行 Markdown 结构化整理；动态地域、配额和产品能力仍应以官网与控制台实时结果为准。
+- 内容形式：对官网正文进行 Markdown 结构化整理，并将有信息价值的官网图片保存为仓库内资源；动态地域、配额和产品能力仍应以官网与控制台实时结果为准。
+- 图片管理：图片的来源、替代文本和处理记录见 [`assets/manifest.yaml`](assets/manifest.yaml)，维护规则见 [`assets/README.md`](assets/README.md)。

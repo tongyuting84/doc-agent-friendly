@@ -1,0 +1,55 @@
+version: 1
+product: vke
+section: overview
+retrieved_at: 2026-11-18
+assets:
+  - file: what-is-vke/container-types.png
+    source_page: https://docs.volcengine.com/docs/vke/what-is-vke?lang=zh
+    source_url: https://portal.volccdn.com/obj/volcfe/cloud-universal-doc/upload_1e6f3f02c0038782fb9d60f1e9c117ce.png
+    alt: VKE 标准容器与弹性容器的资源形态对比
+    transformation: 原图保存
+  - file: what-is-vke/inference-architecture.png
+    source_page: https://docs.volcengine.com/docs/vke/what-is-vke?lang=zh
+    source_url: https://portal.volccdn.com/obj/volcfe/cloud-universal-doc/upload_dbee18ec4a740c2ace89da8a053888b0.png
+    alt: VKE 面向大模型推理服务的整体架构
+    transformation: 原图保存
+  - file: what-is-vke/model-loading-acceleration.png
+    source_page: https://docs.volcengine.com/docs/vke/what-is-vke?lang=zh
+    source_url: https://portal.volccdn.com/obj/volcfe/cloud-universal-doc/upload_93f7335b5e6a0127fe56197b308a9200.png
+    alt: VKE 模型加载加速流程
+    transformation: 原图保存
+  - file: what-is-vke/pd-separation.png
+    source_page: https://docs.volcengine.com/docs/vke/what-is-vke?lang=zh
+    source_url: https://portal.volccdn.com/obj/volcfe/cloud-universal-doc/upload_48b818939aa534b1ec988e5eb33aea7c.png
+    alt: VKE Prefill-Decode 分离部署与弹性调度
+    transformation: 原图保存
+  - file: benefits/product-integration.png
+    source_page: https://docs.volcengine.com/docs/vke/benefits?lang=zh
+    source_url: https://portal.volccdn.com/obj/volcfe/cloud-universal-doc/upload_9fa0a868e0c5b3484f17b70e0398a5af.png
+    alt: VKE 与火山引擎云产品的集成关系
+    transformation: 原图保存
+  - file: benefits/vke-vs-self-managed-kubernetes.png
+    source_page: https://docs.volcengine.com/docs/vke/benefits?lang=zh
+    source_url: https://portal.volccdn.com/obj/volcfe/cloud-universal-doc/upload_392f3761e2da3e3af54ccea52fe00a9c.png
+    alt: VKE 与自建 Kubernetes 的责任和能力对比
+    transformation: 原图保存
+  - file: use-cases/distributed-inference.png
+    source_page: https://docs.volcengine.com/docs/6460/79640?lang=zh
+    source_url: https://portal.volccdn.com/obj/volcfe/cloud-universal-doc/upload_72367c34f80a0c79cbf12102bd965fc8.png
+    alt: Prefill 与 Decode 工作负载分离的分布式推理场景
+    transformation: 等比缩放至最长边 1800 像素
+  - file: use-cases/ai-training.png
+    source_page: https://docs.volcengine.com/docs/6460/79640?lang=zh
+    source_url: https://portal.volccdn.com/obj/volcfe/cloud-universal-doc/upload_f132f1d2db084dbf090202e7b4784e08.png
+    alt: 多节点 GPU 通过高性能网络执行分布式 AI 训练
+    transformation: 等比缩放至最长边 1800 像素
+  - file: use-cases/reinforcement-learning.png
+    source_page: https://docs.volcengine.com/docs/6460/79640?lang=zh
+    source_url: https://portal.volccdn.com/obj/volcfe/cloud-universal-doc/upload_c1f00778f4c6ad0b510d465137f7e84b.png
+    alt: 强化学习中 Agent 与环境的交互闭环
+    transformation: 等比缩放至最长边 1800 像素
+  - file: use-cases/elastic-workloads.png
+    source_page: https://docs.volcengine.com/docs/6460/79640?lang=zh
+    source_url: https://portal.volccdn.com/obj/volcfe/cloud-universal-doc/upload_b7d7ac996a86d9a250d3187850ad0023.png
+    alt: 标准节点与弹性容器共同应对业务峰谷
+    transformation: 原图保存

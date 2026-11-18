@@ -36,11 +36,33 @@ VKE 支持使用 ECS 节点构建标准容器集群，也支持通过 VCI 使用
 | 弹性特点 | 依据节点容量进行调度和扩缩容 | 支持秒级弹性和按需付费 |
 | 典型场景 | 微服务、持续交付、稳定在线业务、GPU 与复杂调度 | 峰谷明显业务、任务型计算、事件驱动和临时在线业务 |
 
+![VKE 标准容器与弹性容器的资源形态对比](assets/what-is-vke/container-types.png)
+
+图示要点：标准容器运行在 ECS 节点上，适合稳定容量和节点级管理；弹性容器由 VCI 按需提供计算资源，适合突发和临时负载。两种资源可以在同一 VKE 集群中组合使用。
+
 ## 产品架构与 AI 能力
 
 VKE 为 AI 负载提供模型部署加速、应用编排和资源调度能力，包括模型加载加速以及 Prefill-Decode 分离场景下的弹性调度。
 
-架构图和当前支持能力请以[官网原文](https://docs.volcengine.com/docs/vke/what-is-vke?lang=zh)为准。
+### 推理服务架构
+
+![VKE 面向大模型推理服务的整体架构](assets/what-is-vke/inference-architecture.png)
+
+图示要点：VKE 在 Kubernetes 资源编排基础上承载推理服务，并通过计算、网络、存储、可观测和弹性能力支撑模型部署与访问。实际组件组合取决于使用的推理框架和功能配置。
+
+### 模型加载加速
+
+![VKE 模型加载加速流程](assets/what-is-vke/model-loading-acceleration.png)
+
+图示要点：通过模型缓存、镜像或存储加速等能力缩短模型数据进入计算实例的路径，降低推理实例启动和扩容等待时间。具体支持范围应以对应功能文档为准。
+
+### Prefill-Decode 分离
+
+![VKE Prefill-Decode 分离部署与弹性调度](assets/what-is-vke/pd-separation.png)
+
+图示要点：推理请求的 Prefill 与 Decode 阶段由不同工作负载承担，可根据两个阶段的负载分别调度和扩缩容，以提高 GPU 利用率并优化时延。
+
+图片所示能力可能随产品版本调整，实施前应继续阅读对应功能文档，并以[官网原文](https://docs.volcengine.com/docs/vke/what-is-vke?lang=zh)和控制台实际能力为准。
 
 ## 相关学习资源
 
