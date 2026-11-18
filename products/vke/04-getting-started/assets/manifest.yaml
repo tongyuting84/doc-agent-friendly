@@ -1,0 +1,40 @@
+version: 1
+product: vke
+section: getting-started
+retrieved_at: 2026-11-18
+assets:
+  - file: quick-guide/vke-usage-flow.png
+    source_page: https://docs.volcengine.com/docs/vke/quick-guide?lang=zh
+    source_url: https://portal.volccdn.com/obj/volcfe/cloud-universal-doc/upload_1977520a64c06ef11840c5c3a8799399.png
+    transformation: 原图保存
+  - file: using-vke-in-the-console/cluster-configuration.png
+    source_page: https://docs.volcengine.com/docs/vke/using-vke-in-the-console?lang=zh
+    source_url: https://portal.volccdn.com/obj/volcfe/cloud-universal-doc/upload_4fa0941774eb978046aff80a104811bd.png
+    transformation: 原图保存
+  - file: using-vke-in-the-console/node-pool-configuration.png
+    source_page: https://docs.volcengine.com/docs/vke/using-vke-in-the-console?lang=zh
+    source_url: https://portal.volccdn.com/obj/volcfe/cloud-universal-doc/upload_632ef16497963186adaef16fd9f0d79a.png
+    transformation: 原图保存
+  - file: using-vke-in-the-console/service-external-endpoint.png
+    source_page: https://docs.volcengine.com/docs/vke/using-vke-in-the-console?lang=zh
+    source_url: https://portal.volccdn.com/obj/volcfe/cloud-universal-doc/upload_c6dbf5d073d838d8b5dd2d1077bfa124.png
+    transformation: 原图保存
+  - file: using-vke-with-kubectl/kubeconfig-download.png
+    source_page: https://docs.volcengine.com/docs/vke/using-vke-with-kubectl?lang=zh
+    source_url: https://portal.volccdn.com/obj/volcfe/cloud-universal-doc/upload_86341bd3e728dcc77156c6134ec4952c.png
+    transformation: 原图保存
+  - file: deploying-an-application-using-an-application-template/helm-application-details.png
+    source_page: https://docs.volcengine.com/docs/vke/Deploying-an-application-using-an-application-template?lang=zh
+    source_url: https://portal.volccdn.com/obj/volcfe/cloud-universal-doc/upload_f920a6e0d063091ae46f951b19f551fd.png
+    transformation: 原图保存
+  - file: deploying-an-application-using-an-application-template/service-external-endpoint.png
+    source_page: https://docs.volcengine.com/docs/vke/Deploying-an-application-using-an-application-template?lang=zh
+    source_url: https://portal.volccdn.com/obj/volcfe/cloud-universal-doc/upload_2f29a528eb3c3c16d355799a408d3449.png
+    transformation: 原图保存
+  - file: common/nginx-welcome-page.png
+    source_page:
+      - https://docs.volcengine.com/docs/vke/using-vke-in-the-console?lang=zh
+      - https://docs.volcengine.com/docs/vke/using-vke-with-kubectl?lang=zh
+      - https://docs.volcengine.com/docs/vke/Deploying-an-application-using-an-application-template?lang=zh
+    source_url: https://portal.volccdn.com/obj/volcfe/cloud-universal-doc/upload_065b97d393a5f72cf045e78822734b77.png
+    transformation: 原图保存

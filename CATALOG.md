@@ -16,5 +16,11 @@
 | VKE | 产品简介 | 地域和可用区 | [`products/vke/02-overview/05-regions-and-availability-zones.md`](products/vke/02-overview/05-regions-and-availability-zones.md) | active |
 | VKE | 产品简介 | 使用限制 | [`products/vke/02-overview/06-limits.md`](products/vke/02-overview/06-limits.md) | active |
 | VKE | 产品简介 | 高危操作及恢复方案 | [`products/vke/02-overview/07-high-risk-operations-and-recovery-solutions.md`](products/vke/02-overview/07-high-risk-operations-and-recovery-solutions.md) | active |
+| VKE | 快速入门 | 快速入门目录 | [`products/vke/04-getting-started/README.md`](products/vke/04-getting-started/README.md) | active |
+| VKE | 快速入门 | 入门指引 | [`products/vke/04-getting-started/01-quick-guide.md`](products/vke/04-getting-started/01-quick-guide.md) | active |
+| VKE | 快速入门 | 准备工作 | [`products/vke/04-getting-started/02-preparations.md`](products/vke/04-getting-started/02-preparations.md) | active |
+| VKE | 快速入门 | 通过控制台使用容器服务 | [`products/vke/04-getting-started/03-using-vke-in-the-console.md`](products/vke/04-getting-started/03-using-vke-in-the-console.md) | active |
+| VKE | 快速入门 | 通过 kubectl 使用容器服务 | [`products/vke/04-getting-started/04-using-vke-with-kubectl.md`](products/vke/04-getting-started/04-using-vke-with-kubectl.md) | active |
+| VKE | 快速入门 | 通过应用模板快速部署应用 | [`products/vke/04-getting-started/05-deploying-an-application-using-an-application-template.md`](products/vke/04-getting-started/05-deploying-an-application-using-an-application-template.md) | active |
 
 产品文档加入仓库后，应同步更新本目录。`active` 表示当前生效规范；`scaffold` 表示目录已建立但尚未迁入产品正文。
