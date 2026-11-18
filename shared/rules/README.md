@@ -4,6 +4,8 @@
 
 产品文档原则上只引用[全局 Agent 执行规范](01-global-agent-execution.md)。全局规范识别文档中的实际操作类型，并强制加载对应子规范。
 
+![产品文档通过全局入口加载 API、凭证、控制台和 Kubernetes YAML 规范](assets/agent-rule-routing.png)
+
 | 规范 | 职责 | 加载条件 |
 | --- | --- | --- |
 | [全局 Agent 执行规范](01-global-agent-execution.md) | 通用流程、输入、安全、风险、验收及规范路由 | 所有 Agent 可执行文档 |
