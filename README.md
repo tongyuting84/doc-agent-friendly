@@ -9,7 +9,6 @@
 - [`shared/rules/`](shared/rules/)：跨产品复用的 Agent 执行规则。
 - [`shared/templates/`](shared/templates/)：新增文档使用的模板。
 - [`products/`](products/)：按产品及官网信息架构组织的 Markdown 文档。
-- [`audits/`](audits/)：Agent Friendly 审核与实测报告，不属于对客执行文档。
 - [`CATALOG.md`](CATALOG.md)：仓库级文档目录。
 
 ## 使用原则
@@ -17,7 +16,7 @@
 1. 通用规则定义“如何安全执行”。
 2. 产品文档定义“执行什么”和产品事实。
 3. 业务文档保持原子化，原则上只引用全局规范；全局规范自动路由 API、控制台和 Kubernetes YAML 子规范。
-4. 审核报告与产品文档分离。
+4. 审核与实测报告不进入本线上文档仓库。
 5. `main` 分支作为本仓库的唯一事实来源；原 Codebase 仓库保留迁移历史。
 
 ## 当前产品

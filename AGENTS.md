@@ -6,4 +6,4 @@
 - Do not duplicate shared rules inside individual API documents.
 - Never commit credentials, tokens, cookies, passwords, or unredacted customer/resource data.
 - Update navigation and catalog entries when adding, moving, or retiring documents.
-- Treat audit reports as evidence records under `audits/`, not as customer execution instructions.
+- Do not commit audit or hands-on test reports to this online documentation repository.
