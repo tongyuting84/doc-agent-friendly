@@ -4,18 +4,18 @@
 
 ## 文档导航
 
-- [What's New](whats-new/)
-- [产品简介](overview/)
-- [Billing](billing/)
-- [Getting started](getting-started/)
-- [User guide](user-guide/)
-- [Best practices](best-practices/)
-- [Solution](solutions/)
-- [Security and compliance](security-and-compliance/)
-- [API reference](api-reference/)
-- [SDK reference](sdk-reference/)
-- [Development guide](development-guide/)
-- [FAQs](faqs/)
+1. [What's New](01-whats-new/)
+2. [产品简介](02-overview/)
+3. [Billing](03-billing/)
+4. [Getting started](04-getting-started/)
+5. [User guide](05-user-guide/)
+6. [Best practices](06-best-practices/)
+7. [Solution](07-solutions/)
+8. [Security and compliance](08-security-and-compliance/)
+9. [API reference](09-api-reference/)
+10. [SDK reference](10-sdk-reference/)
+11. [Development guide](11-development-guide/)
+12. [FAQs](12-faqs/)
 
 ## Agent 执行入口
 

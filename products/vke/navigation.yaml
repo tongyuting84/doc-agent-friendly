@@ -1,26 +1,26 @@
 title: Volcengine Kubernetes Engine
 sections:
   - title: What's New
-    path: whats-new
+    path: 01-whats-new
   - title: Overview
-    path: overview
+    path: 02-overview
   - title: Billing
-    path: billing
+    path: 03-billing
   - title: Getting started
-    path: getting-started
+    path: 04-getting-started
   - title: User guide
-    path: user-guide
+    path: 05-user-guide
   - title: Best practices
-    path: best-practices
+    path: 06-best-practices
   - title: Solution
-    path: solutions
+    path: 07-solutions
   - title: Security and compliance
-    path: security-and-compliance
+    path: 08-security-and-compliance
   - title: API reference
-    path: api-reference
+    path: 09-api-reference
   - title: SDK reference
-    path: sdk-reference
+    path: 10-sdk-reference
   - title: Development guide
-    path: development-guide
+    path: 11-development-guide
   - title: FAQs
-    path: faqs
+    path: 12-faqs
